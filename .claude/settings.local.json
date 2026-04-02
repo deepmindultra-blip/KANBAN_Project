@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --app --no-src-dir --no-eslint --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(mv \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/app/components/\"* \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/components/\")",
+      "Bash(mv \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/app/types/\"* \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/types/\")",
+      "Bash(mv \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/app/data/\"* \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/data/\")",
+      "Bash(mv \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/app/hooks/\"* \"C:/Users/Lenovo/Desktop/fahmidha/2_April/3_Kanban_Project/frontend/hooks/\")",
+      "Bash(npm run:*)",
+      "Bash(npm test:*)",
+      "Bash(npx playwright:*)"
+    ]
+  }
+}
